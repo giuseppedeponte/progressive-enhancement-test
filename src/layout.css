@@ -1,0 +1,71 @@
+.section .item {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 300px;
+  min-height: 404px;
+}
+
+.section .item figure {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section .item figure img {
+  width: 100%;
+  height: auto;
+}
+
+.section .item figure figcaption {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px 10px;
+}
+
+.inline-block .section .item {
+  display: inline-block;
+  width: auto;
+  min-width: 300px;
+}
+
+@supports (column-width: 300px) {
+  .columns .section ul {
+    column-width: 300px;
+  }
+
+  .columns .section .item figure,
+  .columns .section .item figcaption {
+    break-inside: avoid;
+  }
+}
+
+@supports (display:flex) {
+  .flex .section ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .flex .section .item {
+    flex: 1 1 300px;
+    max-width: 300px;
+  }
+}
+
+@supports (display: grid) {
+  .grid .section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+  }
+
+  .grid .section .item {
+    padding: 0;
+    width: 100%;
+    max-width: none;
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "className": "grid",
+    "label": "Grid",
+    "href": "https://caniuse.com/#feat=css-grid",
+    "icon": "fa fa-th"
+  },
+  {
+    "className": "flex",
+    "label": "Flexbox",
+    "href": "https://caniuse.com/#feat=flexbox",
+    "icon": "fa fa-boxes"
+  },
+  {
+    "className": "columns",
+    "label": "Columns",
+    "href": "https://caniuse.com/#feat=multicolumn",
+    "icon": "fa fa-columns"
+  },
+  {
+    "className": "inline-block",
+    "label": "Inline block",
+    "href": "https://caniuse.com/#feat=inline-block",
+    "icon": "fa fa-align-justify"
+  },
+  {
+    "className": "",
+    "label": "No layout",
+    "href": "",
+    "icon": "fa fa-code"
+  }
+]
