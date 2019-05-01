@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/progressive-enhancement-test/static/css/main.cbeb9a0d.chunk.css",
+    "main.js": "/progressive-enhancement-test/static/js/main.5c68508b.chunk.js",
+    "main.js.map": "/progressive-enhancement-test/static/js/main.5c68508b.chunk.js.map",
+    "runtime~main.js": "/progressive-enhancement-test/static/js/runtime~main.2f02aa39.js",
+    "runtime~main.js.map": "/progressive-enhancement-test/static/js/runtime~main.2f02aa39.js.map",
+    "static/css/2.6f0d42e0.chunk.css": "/progressive-enhancement-test/static/css/2.6f0d42e0.chunk.css",
+    "static/js/2.37876697.chunk.js": "/progressive-enhancement-test/static/js/2.37876697.chunk.js",
+    "static/js/2.37876697.chunk.js.map": "/progressive-enhancement-test/static/js/2.37876697.chunk.js.map",
+    "index.html": "/progressive-enhancement-test/index.html",
+    "precache-manifest.fd8ccb71b3542b73b5985ed341baa098.js": "/progressive-enhancement-test/precache-manifest.fd8ccb71b3542b73b5985ed341baa098.js",
+    "service-worker.js": "/progressive-enhancement-test/service-worker.js",
+    "static/css/2.6f0d42e0.chunk.css.map": "/progressive-enhancement-test/static/css/2.6f0d42e0.chunk.css.map",
+    "static/css/main.cbeb9a0d.chunk.css.map": "/progressive-enhancement-test/static/css/main.cbeb9a0d.chunk.css.map",
+    "static/media/all.min.css": "/progressive-enhancement-test/static/media/fa-solid-900.ff8d9f8a.ttf"
+  }
+}
