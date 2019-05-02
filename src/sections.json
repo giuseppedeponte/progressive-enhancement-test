@@ -4,10 +4,12 @@
     "items": [
       {
         "title": "Soupe à l'oignon",
+        "tag": "Nouveau",
         "img": "https://api.adorable.io/avatars/300/soupe-a-l-oignon.png"
       },
       {
         "title": "Hoummous",
+        "tag": "Très bon !",
         "img": "https://api.adorable.io/avatars/300/hoummous.png"
       },
       {

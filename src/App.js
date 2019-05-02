@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-import sections from './sections'
+import List from './components/List'
+
 import layouts from './layouts'
 
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import './App.css';
-import './layout.css';
 
 function App() {
   const [ className, setClassName ] = useState('');
@@ -13,29 +13,9 @@ function App() {
 
   return (
     <main id="product-list">
-      <ul className={ className }>
-      {
-        sections.map(section => (
-          <li className="section" key={ section.title }>
-            <h2>{ section.title }</h2>
-            <ul>
-            {
-              section.items.map(item => (
-                <li className="item" key={ item.title }>
-                  <figure className="card">
-                    <img src={ item.img } alt={ item.title } />
-                    <figcaption>
-                      { item.title }
-                    </figcaption>
-                  </figure>
-                </li>
-              ))
-            }
-            </ul>
-          </li>
-        ))
-      }
-      </ul>
+      <section>
+        <List className={ className } />
+      </section>
       <footer>
         {
           layouts.map(layout => (

@@ -1,0 +1,75 @@
+.card {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card figcaption {
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.card figcaption p {
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.card figcaption strong {
+  padding: 0 15px;
+  background-color: gold;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  transform: rotate(-5deg);
+}
+
+.card figcaption button {
+  display: block;
+  background-color: white;
+  border: 3px solid tomato;
+  color: tomato;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.card figcaption button:hover,
+.card figcaption button:focus {
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+}
+
+@supports (display: flex) {
+  .flex .card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .flex .card img {
+    flex: 1 1 100%;
+  }
+  .flex .card figcaption {
+    flex-basis: 100px;
+  }
+}
